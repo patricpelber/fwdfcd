@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="12dp"
+    android:background="@drawable/bg" android:gravity="center_vertical">
+
+    <TextClock android:id="@+id/clock"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:format12Hour="hh:mm a" android:format24Hour="HH:mm"
+        android:fontFamily="sans-serif-monospace" android:textStyle="bold"
+        android:textSize="44sp" android:textColor="#33FF66" android:includeFontPadding="false"/>
+
+    <TextClock android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:format12Hour="EEEE, d MMMM yyyy" android:format24Hour="EEEE, d MMMM yyyy"
+        android:fontFamily="sans-serif-monospace" android:textSize="13sp" android:textColor="#1FBF4A"/>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+        android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:background="#1F6F33"/>
+
+    <TextView android:id="@+id/fname"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-monospace" android:textStyle="bold"
+        android:textSize="18sp" android:textColor="#33FF66" android:maxLines="1" android:ellipsize="end"/>
+
+    <TextView android:id="@+id/fcount"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-monospace" android:textStyle="bold"
+        android:textSize="15sp" android:textColor="#B6FFC8"/>
+
+    <TextView android:id="@+id/fdesc"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="12sp" android:textColor="#1FBF4A" android:maxLines="2" android:ellipsize="end"/>
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+ {"name":"Christmas","date":"2026-12-25","desc":"Lights, carols and family feasts.","intl":false},
+ {"name":"New Year","date":"2027-01-01","desc":"A fresh page for the year ahead.","intl":true},
+ {"name":"Makar Sankranti","date":"2027-01-14","desc":"Harvest festival; kites fill the sky.","intl":false},
+ {"name":"Republic Day","date":"2027-01-26","desc":"India adopts its Constitution.","intl":false},
+ {"name":"Maha Shivratri","date":"2027-03-06","desc":"Night of devotion to Lord Shiva.","intl":false},
+ {"name":"Eid al-Fitr","date":"2027-03-10","desc":"Celebrates the end of Ramadan.","intl":false},
+ {"name":"Holi","date":"2027-03-22","desc":"Festival of colours and spring.","intl":false},
+ {"name":"Ram Navami","date":"2027-04-15","desc":"Birth of Lord Rama.","intl":false},
+ {"name":"Eid al-Adha","date":"2027-05-17","desc":"Festival of sacrifice.","intl":false},
+ {"name":"Raksha Bandhan","date":"2027-08-17","desc":"Bond between brothers and sisters.","intl":false},
+ {"name":"Janmashtami","date":"2027-08-25","desc":"Birth of Lord Krishna.","intl":false},
+ {"name":"Ganesh Chaturthi","date":"2027-09-05","desc":"Welcoming Lord Ganesha home.","intl":false},
+ {"name":"Navratri","date":"2027-10-09","desc":"Nine nights of Goddess Durga.","intl":false},
+ {"name":"Dussehra","date":"2027-10-18","desc":"Victory of good over evil.","intl":false},
+ {"name":"Diwali","date":"2027-10-29","desc":"Festival of lights and new beginnings.","intl":false},
+ {"name":"Halloween","date":"2027-10-31","desc":"Pumpkins and spooky fun.","intl":true}
+]
